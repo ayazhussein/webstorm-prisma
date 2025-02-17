@@ -12,7 +12,7 @@
       "options": {
         "platform": "node",
         "outputPath": "dist/apps/example-api",
-        "format": ["cjs"],
+        "format": ["esm"],
         "bundle": false,
         "main": "apps/example-api/src/main.ts",
         "tsConfig": "apps/example-api/tsconfig.app.json",
@@ -21,7 +21,7 @@
         "esbuildOptions": {
           "sourcemap": true,
           "outExtension": {
-            ".js": ".js"
+            ".mjs": ".js"
           }
         }
       },
