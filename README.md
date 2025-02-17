@@ -17,6 +17,7 @@ npx nx serve example-api
 To create a production bundle:
 
 ```sh
+npx nx prisma-generate example-api
 npx nx build example-api
 ```
 
